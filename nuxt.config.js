@@ -2,6 +2,9 @@ export default {
 	// Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
 	ssr: false,
 
+	router:{
+		base:'/demo_nuxt0523/'
+	},
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		title: 'nuxt_demo',
@@ -17,11 +20,11 @@ export default {
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
 		],
 		script: [
-			{ src: "/js/jquery.min.js", body: true },
-			{ src: "/js/browser.min.js", body: true },
-			{ src: "/js/breakpoints.min.js", body: true },
-			{ src: "/js/util.js", body: true },
-			{ src: "/js/main.js", body: true }
+			{ src: "/demo_nuxt0523/js/jquery.min.js", body: true },
+			{ src: "/demo_nuxt0523/js/browser.min.js", body: true },
+			{ src: "/demo_nuxt0523/js/breakpoints.min.js", body: true },
+			{ src: "/demo_nuxt0523/js/util.js", body: true },
+			{ src: "/demo_nuxt0523/js/main.js", body: true }
 		]
 	},
 
