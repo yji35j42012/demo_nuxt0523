@@ -2,9 +2,9 @@ export default {
 	// Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
 	ssr: false,
 
-	router:{
-		base:'/demo_nuxt0523/'
-	},
+	// router:{
+	// 	base:'/demo_nuxt0523/'
+	// },
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		title: 'nuxt_demo',
